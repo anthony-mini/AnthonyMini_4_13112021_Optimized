@@ -24,13 +24,16 @@
 }
 
 .et-icon-browser:before {
-    content: "\e00c"
+    content: "\e00c";
+    font-size: 90px;
 }
 
 .et-icon-presentation:before {
-    content: "\e00e"
+    content: "\e00e";
+    font-size: 90px;
 }
 
 .et-icon-edit:before {
-    content: "\e01c"
+    content: "\e01c";
+    font-size: 90px;
 }
