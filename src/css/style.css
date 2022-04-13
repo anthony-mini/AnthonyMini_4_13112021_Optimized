@@ -796,11 +796,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("../img/photo/bandeau-de-presentation.jpg");
+    background-image: url("../img/photo/bandeau-de-presentation.webp");
 }
 
 .bg-presentation {
-    background-image: url("../img/photo/image-de-presentation.jpg");
+    background-image: url("../img/photo/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
