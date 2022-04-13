@@ -717,7 +717,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: white;
 }
 
 .tc-white {
@@ -1158,15 +1158,17 @@ i.citation-name {
 }
 
 .social {
-    color: #ffffff69;
+    color: #2c457f;
 }
 
 .social:hover {
-    color: white;
+    color: #2c457fb8;
 }
 
 .txt-footer {
     font-size: 14px;
     margin-bottom: 15px;
     margin-top: 10px;
+    color: #2c457f;
+    text-transform: uppercase;
 }
