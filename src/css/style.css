@@ -82,7 +82,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("../img/texture/texture-paper.png");
+    background: url("../img/texture/texture-paper.webp");
     background-size: 280px 280px;
     background-color: #03748C;
     opacity: 0.4;
@@ -792,7 +792,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("../img/texture/dots-bg.png");
+    background-image: url("../img/texture/dots-bg.webp");
 }
 
 .bg-banniere {
