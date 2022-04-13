@@ -179,11 +179,12 @@ a:hover {
 .l-bloc .navbar a {
     color: black;
     font-size: 20px;
+    font-weight: 400;
 }
 
 .l-bloc .navbar a:hover
  {
-    color: #F3976C;
+    color: #4065bd;
 }
 
 .l-bloc .navbar-toggle .icon-bar {
@@ -727,12 +728,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #335599;
     color: #FFFFFF;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #F3976C;
+    background: #335599;
     color: #FFFFFF;
 }
 
@@ -1090,7 +1091,7 @@ i.citation-name {
     text-align: center;
     font-weight: 600;
     font-style: italic;
-    color: #ff9162;
+    color: white;
 }
 
 .txt-4 {
