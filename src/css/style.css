@@ -1031,12 +1031,12 @@ h4 {
 
 .col-sm-12 img {
     width: 140px;
-    height: auto;
+    height: 140px;
 }
 
 .navbar-brand img {
     width: 230px;
-    height: auto;
+    height: 50px;
 }
 
 /* Positionnement du header */
@@ -1049,4 +1049,11 @@ h4 {
 
 #bloc-1-hero {
     padding-top: 100px;
+}
+
+/* img */
+
+.img-responsive {
+    height: 270px;
+    width: 270px;
 }
