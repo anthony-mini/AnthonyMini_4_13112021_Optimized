@@ -998,6 +998,9 @@ h4 {
     position: fixed;
     box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 28%);
 }
+#bloc-0-contact {
+    box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 28%);
+}
 
 #bloc-1-hero {
     padding-top: 100px;
@@ -1168,7 +1171,7 @@ i.citation-name {
 }
 
 #bloc-6 {
-    padding-top: 90px;
+    padding-top: 10px;
     padding-bottom: 40px;
 }
 
@@ -1235,3 +1238,4 @@ i.citation-name {
     font-weight: 200;
     text-align: center;
 }
+
