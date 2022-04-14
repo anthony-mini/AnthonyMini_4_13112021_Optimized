@@ -84,8 +84,15 @@ a:hover {
 .texture-paper::before {
     background: url("../img/texture/texture-paper.webp");
     background-size: 280px 280px;
-    background-color: #03748C;
+    background-color: #013679;
     opacity: 0.74;
+}
+
+.texture-paper__contact::before {
+    background: url("../img/texture/texture-paper.webp");
+    background-size: 280px 280px;
+    background-color: #013679;
+    opacity: 0.90;
 }
 
 .b-parallax {
@@ -999,6 +1006,8 @@ h4 {
     box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 28%);
 }
 #bloc-0-contact {
+    z-index: 999;
+    position: fixed;
     box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 28%);
 }
 
@@ -1171,7 +1180,7 @@ i.citation-name {
 }
 
 #bloc-6 {
-    padding-top: 10px;
+    padding-top: 90px;
     padding-bottom: 40px;
 }
 
