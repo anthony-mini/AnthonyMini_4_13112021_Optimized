@@ -1225,6 +1225,10 @@ i.citation-name {
     padding-top: 15px!important;
 }
 
+.form-control2::placeholder {
+    padding-top:50px;
+}
+
 .txt-adresse {
     font-size: 17px;
     margin-top: 15px;
