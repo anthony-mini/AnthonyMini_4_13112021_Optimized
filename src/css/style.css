@@ -85,7 +85,7 @@ a:hover {
     background: url("../img/texture/texture-paper.webp");
     background-size: 280px 280px;
     background-color: #03748C;
-    opacity: 0.4;
+    opacity: 0.74;
 }
 
 .b-parallax {
@@ -268,11 +268,6 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
-    background: transparent;
-}
-
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
@@ -299,13 +294,6 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -648,7 +636,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 0px 35px 0px 35px;
 }
 
 h2 {
@@ -691,6 +679,7 @@ h4 {
 }
 
 .portfolio-row {
+    display: flex;
     margin-bottom: 44px;
     margin-top: 50px;
 }
@@ -756,10 +745,6 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577;
     border-color: #364577;
-}
-
-.bg-dots-bg {
-    background-image: url("../img/texture/dots-bg.webp");
 }
 
 .bg-banniere {
@@ -1164,12 +1149,85 @@ i.citation-name {
 
 .social:hover {
     color: #2c457fb8;
+    text-decoration: none;
 }
 
 .txt-footer {
     font-size: 14px;
+    font-weight: 600;
     margin-bottom: 15px;
     margin-top: 10px;
     color: #2c457f;
     text-transform: uppercase;
+}
+
+/* Page contact */
+
+.col-sm-6 {
+    float: none!important;
+}
+
+#bloc-6 {
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.btn-send {
+    font-weight: 600!important;
+    margin-top: 20px!important;
+}
+
+.btn-send:hover {
+    color: white!important;
+    transform: scale(1.02);
+    background-color: #335599d1;
+}
+
+.FlexCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt-interline-contact {
+    font-size: 27px;
+    line-height: 1.5em;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0;
+}
+
+.txt-interline-contact2 {
+    font-size: 19px;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-style: oblique;
+    color: white;
+}
+
+.bloc-form {
+    margin-top: 40px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.txt-form {
+    font-size: 17px;
+    font-weight: 600;
+    color: #32457b;
+}
+
+.form-control2 {
+    padding: 150px 12px!important;
+    padding-top: 15px!important;
+}
+
+.txt-adresse {
+    font-size: 17px;
+    margin-top: 15px;
+    font-weight: 200;
+    text-align: center;
 }
