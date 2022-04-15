@@ -17,8 +17,17 @@
 
     <title>Contact | La Panthère</title>
 
-<!-- Analytics -->
- 
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KMVBNBVN9E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KMVBNBVN9E');
+</script>
+
 <!-- Analytics END -->
     
 </head>
@@ -33,7 +42,7 @@
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html" title="Logo tête panthère"><img src="src/img/logo/logo-monochrome-la-panthere.svg" alt="Logo de l'agence web lyonnaise. La Panthère" />
 						</a>
-						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" title="Menu">
+						<button aria-label="Menu de navigation" id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" title="Menu">
 							<span class="sr-only"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
@@ -108,7 +117,7 @@
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 								</label> <textarea placeholder="Votre projet" id="message"  class="form-control form-control2 " rows="4" cols="50" required> </textarea>
 							</div> 
-							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine btn-send" type="submit">
+							<button aria-label="Envoyer le message" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine btn-send" type="submit">
 								Envoyer
 							</button>
 						</form>
