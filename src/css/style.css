@@ -88,7 +88,7 @@ a:hover {
     opacity: 0.74;
 }
 
-.texture-paper__contact::before {
+.texture-paper__contact{
     background: url("../img/texture/texture-paper.webp");
     background-size: 280px 280px;
     background-color: #013679;

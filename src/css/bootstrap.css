@@ -106,15 +106,7 @@ button::-moz-focus-inner {
         display: none;
     }
 }
-@font-face {
-    font-family: "Glyphicons Halflings";
-    src: url(https://anthony-mini.github.io/AnthonyMini_4_13112021_Optimized/src/fonts/glyphicons-halflings-regular.eot);
-    src: url(https://anthony-mini.github.io/AnthonyMini_4_13112021_Optimized/src/fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"),
-        url(https://anthony-mini.github.io/AnthonyMini_4_13112021_Optimized/src/fonts/glyphicons-halflings-regular.woff2) format("woff2"),
-        url(https://anthony-mini.github.io/AnthonyMini_4_13112021_Optimized/src/fonts/glyphicons-halflings-regular.woff) format("woff"),
-        url(https://anthony-mini.github.io/AnthonyMini_4_13112021_Optimized/src/fonts/glyphicons-halflings-regular.ttf) format("truetype"),
-        url(https://anthony-mini.github.io/AnthonyMini_4_13112021_Optimized/src/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
-}
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
