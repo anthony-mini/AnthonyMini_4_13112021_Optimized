@@ -33,7 +33,7 @@
 </head>
 <body>
 <!-- Principal conteneur -->
-	<main class="page-container">
+	<div class="page-container">
     
 <!-- bloc-0 -->
 		<header class="bloc bgc-white l-bloc " id="bloc-0-contact">
@@ -65,71 +65,73 @@
 		<!-- bloc-0 END -->
 
 		<!-- bloc-6 -->
-		<section class="bloc bloc-bg-texture texture-paper__contact" id="bloc-6">
-			<div class="container bloc-lg">
-				<div class="row">
-					<div class="col-sm-12">
-						<h1 class="text-center txt-interline-contact">
-							Parlons web design !
-						</h1>
-						<p class="text-center txt-interline-contact2">
-							Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
-							Parlez-nous de votre projet en complétant le formulaire ci-dessous.
-						</p>
+		<main>
+			<section class="bloc bloc-bg-texture texture-paper__contact" id="bloc-6">
+				<div class="container bloc-lg">
+					<div class="row">
+						<div class="col-sm-12">
+							<h1 class="text-center txt-interline-contact">
+								Parlons web design !
+							</h1>
+							<p class="text-center txt-interline-contact2">
+								Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+								Parlez-nous de votre projet en complétant le formulaire ci-dessous.
+							</p>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-		<!-- bloc-6 END -->
+			</section>
+			<!-- bloc-6 END -->
 
-		<!-- bloc-7 -->
-		<div class="bloc bgc-white l-bloc" id="bloc-7">
-			<div class="container bloc-lg">
-				<div class="row FlexCenter">
-					<div class="col-sm-6 bloc-form">
-						<form id="form_1">
-							<div class="form-group">
-								<label for="surname" class="txt-form">
-									Prénom
-								</label>
-								<input id="surname" class="form-control" placeholder="Votre prénom" required />
-							</div>
-							<div class="form-group">
-								<label for="name" class="txt-form">
-									Nom
-								</label>
-								<input id="name" class="form-control" placeholder="Votre nom" required />
-							</div>
-							<div class="form-group">
-								<label for="email" class="txt-form">
-									Adresse email
-								</label>
-								<input id="email" class="form-control" type="email" placeholder="Votre adresse mail" required />
-							</div>
-							<div class="form-group">
-								<label for="input_504" class="txt-form">
-									Comment nous avez-vous connu ?
-								</label>
-								<input  class="form-control" type="email" required id="input_504" placeholder="Site web ? Newsletter ? Réseaux sociaux ? ..." />
-							</div>
-							<div class="form-group">
-								<label for="message" class="txt-form">
-									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label> <textarea placeholder="Votre projet" id="message"  class="form-control form-control2 " rows="4" cols="50" required> </textarea>
-							</div> 
-							<button aria-label="Envoyer le message" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine btn-send" type="submit">
-								Envoyer
-							</button>
-						</form>
-					</div>
-					<div class="col-sm-6">
-						<p class="FlexCenter txt-adresse">
-							contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-						</p>
+			<!-- bloc-7 -->
+			<div class="bloc bgc-white l-bloc" id="bloc-7">
+				<div class="container bloc-lg">
+					<div class="row FlexCenter">
+						<div class="col-sm-6 bloc-form">
+							<form id="form_1">
+								<div class="form-group">
+									<label for="surname" class="txt-form">
+										Prénom
+									</label>
+									<input id="surname" class="form-control" placeholder="Votre prénom" required />
+								</div>
+								<div class="form-group">
+									<label for="name" class="txt-form">
+										Nom
+									</label>
+									<input id="name" class="form-control" placeholder="Votre nom" required />
+								</div>
+								<div class="form-group">
+									<label for="email" class="txt-form">
+										Adresse email
+									</label>
+									<input id="email" class="form-control" type="email" placeholder="Votre adresse mail" required />
+								</div>
+								<div class="form-group">
+									<label for="input_504" class="txt-form">
+										Comment nous avez-vous connu ?
+									</label>
+									<input  class="form-control" type="email" required id="input_504" placeholder="Site web ? Newsletter ? Réseaux sociaux ? ..." />
+								</div>
+								<div class="form-group">
+									<label for="message" class="txt-form">
+										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+									</label> <textarea placeholder="Votre projet" id="message"  class="form-control form-control2 " rows="4" cols="50" required> </textarea>
+								</div> 
+								<button aria-label="Envoyer le message" class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine btn-send" type="submit">
+									Envoyer
+								</button>
+							</form>
+						</div>
+						<div class="col-sm-6">
+							<p class="FlexCenter txt-adresse">
+								contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</main>
 		<!-- bloc-7 END -->
 
 		<!-- Footer - bloc-8 -->
@@ -167,8 +169,7 @@
 			</div>
 		</footer>
 		<!-- Footer - bloc-8 END -->
-
-	</main>
+	</div>
 <!-- Principal conteneur END -->
  
 	<script src="js/jquery-2.1.0-min.js" defer></script>
