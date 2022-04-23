@@ -19,7 +19,7 @@
 
 
 - <u> Structure HTML </u> :<br>
-⁃ Pratique <strong> "Black hat" : keywords abusifs, keywords invisibles, etc...</strong> supprimées ❌<br>
+⁃ Pratique <strong> "Black hat" </strong> : <i>keywords abusifs, keywords invisibles, etc...</i> supprimées ❌<br>
 ⁃ <strong> Backlinks </strong> obsolète supprimée ou améliorée.<br>
 ⁃ Attribut `alt` des images modifiée.<br>
 ⁃ <strong> Structure sémantiques </strong> améliorée.<br>
