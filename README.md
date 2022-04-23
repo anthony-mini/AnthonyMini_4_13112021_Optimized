@@ -25,7 +25,7 @@
 ⁃ <strong> Structure sémantiques </strong> améliorée.<br>
 
 - <u> Formulaire </u> : <br>
-⁃ Utilisation de l'attribut `<label `for` = "[--- input ID ---]">`.<br>
+⁃ Utilisation de l'attribut <`label` `for`=[.. input ID ..] >.<br>
 ⁃ Attributs `placeholder`ajoutés.<br>
 
 ## Performance 🚀
