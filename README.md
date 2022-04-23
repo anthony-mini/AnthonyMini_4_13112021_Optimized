@@ -9,8 +9,8 @@
 ## SEO 📊
 
 - <u> Fichiers sources </u> :
-⁃ Modification de fichier `page2.html` en `contact.html`.
-⁃ Modification du nom des images. 
+⁃ Modification de fichier `page2.html` en `contact.html`. <br>
+⁃ Modification du nom des images. <br>
 
 - <u> Bloc meta </u> :
 ⁃ Attribut `lang="fr"`. <br>
@@ -25,8 +25,8 @@
 ⁃ <strong> Structure sémantiques </strong> améliorée.<br>
 
 - <u> Formulaire </u> : 
-⁃ Utilisation de l'attribut `<label `for` = "[--- input ID ---]">`.
-⁃ Attributs `placeholder`ajoutés.
+⁃ Utilisation de l'attribut `<label `for` = "[--- input ID ---]">`.<br>
+⁃ Attributs `placeholder`ajoutés.<br>
 
 ## Performance 🚀
 
