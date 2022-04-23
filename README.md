@@ -8,23 +8,23 @@
 
 ## SEO 📊
 
-- <u> Fichiers sources </u> :
+- <u> Fichiers sources </u> :<br>
 ⁃ Modification de fichier `page2.html` en `contact.html`. <br>
 ⁃ Modification du nom des images. <br>
 
-- <u> Bloc meta </u> :
+- <u> Bloc meta </u> :<br>
 ⁃ Attribut `lang="fr"`. <br>
 ⁃ Balise `title` ajoutée.<br>
 ⁃ Balise `meta description` améliorée.<br>
 
 
-- <u> Structure HTML </u> :
+- <u> Structure HTML </u> :<br>
 ⁃ Pratique <strong> "Black hat" : keywords abusifs, keywords invisibles, etc...</strong> supprimées ❌<br>
 ⁃ <strong> Backlinks </strong> obsolète supprimée ou améliorée.<br>
 ⁃ Attribut `alt` des images modifiée.<br>
 ⁃ <strong> Structure sémantiques </strong> améliorée.<br>
 
-- <u> Formulaire </u> : 
+- <u> Formulaire </u> : <br>
 ⁃ Utilisation de l'attribut `<label `for` = "[--- input ID ---]">`.<br>
 ⁃ Attributs `placeholder`ajoutés.<br>
 
