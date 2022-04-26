@@ -799,10 +799,6 @@ h4 {
     content: "";
     color: #000;
 }
-.col-sm-12 img {
-    width: 140px;
-    height: 140px;
-}
 .navbar-brand img {
     width: 230px;
     height: 50px;
@@ -1021,5 +1017,10 @@ i.citation-name {
 .row.voffset-lg.voffset {
     display: flex;
     justify-content: center;
+}
+
+.citation-name {
+    color: black;
+    font-size: 16px;
 }
 
