@@ -40,5 +40,5 @@
 
 - Contraste et tailles de texte améliorés.
 
-- Navigation avec lecteur d'écran améliorée. 
+- Navigation avec lecteur d'écran améliorée : `outline`, `focus-visible`, `aria-label`, etc...
 
