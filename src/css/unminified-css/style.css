@@ -1028,3 +1028,13 @@ i.citation-name {
     width: 140px;
     height: 140px;
 }
+
+a:focus-visible {
+    outline: 2px solid red;
+    outline-offset: 3px;
+}
+
+#nav-toggle:focus-visible {
+    outline: 2px solid red;
+    outline-offset: 3px;
+}
